@@ -1,0 +1,17 @@
+# Nmap 7.99 scan initiated Thu Apr  9 18:44:25 2026 as: nmap -oN result.txt localhost
+Nmap scan report for localhost (127.0.0.1)
+Host is up (0.00025s latency).
+Other addresses for localhost (not scanned): ::1
+Not shown: 991 closed tcp ports (conn-refused)
+PORT      STATE SERVICE
+135/tcp   open  msrpc
+445/tcp   open  microsoft-ds
+902/tcp   open  iss-realsecure
+912/tcp   open  apex-mesh
+1521/tcp  open  oracle
+3306/tcp  open  mysql
+3580/tcp  open  nati-svrloc
+10000/tcp open  snet-sensor-mgmt
+49152/tcp open  unknown
+
+# Nmap done at Thu Apr  9 18:44:25 2026 -- 1 IP address (1 host up) scanned in 0.14 seconds
